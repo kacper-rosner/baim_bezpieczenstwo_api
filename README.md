@@ -12,4 +12,4 @@
 ### 5 Run npm start
 ### 6 Browse to http://localhost:3000
 
-### If you have any problems, you can safely use your colleages API (instead of localhost, use his/her IP)
+### If you have any problems, you can safely use your colleages' API (instead of localhost, use his/her IP)
