@@ -11,3 +11,5 @@
 ### 4 Run npm install (only has to be done before first start or when you change the source code)
 ### 5 Run npm start
 ### 6 Browse to http://localhost:3000
+
+### If you have any problems, you can safely use your colleages API (instead of localhost, use his/her IP)
