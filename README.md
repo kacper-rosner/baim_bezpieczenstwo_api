@@ -1,5 +1,7 @@
 ## Zadania: 
 
+### If you want, you can go through exercises with the help from us - we're doing a walkthrough for some problems on the screen 
+
 ### Install node.js version >=26.00 
 
 #### Add node.js to PATH variable !!
