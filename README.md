@@ -66,9 +66,9 @@ Projekt dotyczy bezpieczeństwa API, skupiając się na zagrożeniach, zabezpiec
 
 Dla osób robiących samemu: instrukcja poniżej:
 
-instalacja:
+# instalacja:
 
-#🧃 OWASP Juice Shop – Setup & Quickstart Guide
+# OWASP Juice Shop – Setup & Quickstart Guide
 
 Welcome to the OWASP Juice Shop workshop! Follow the instructions below to get your local environment set up and running.
 
