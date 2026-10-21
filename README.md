@@ -2,16 +2,89 @@
 
 ##### If you want, you can go through exercises with the help from us - we're doing a walkthrough for some problems on the screen 
 
-### 1 Install node.js version >=26.00  
+#🧃 OWASP Juice Shop – Setup & Quickstart Guide
 
-https://nodejs.org/en/download/current
+Welcome to the OWASP Juice Shop workshop! Follow the instructions below to get your local environment set up and running.
 
-#### Add node.js to PATH variable !!
+📋 Prerequisites
 
-### 2 Run git clone https://github.com/juice-shop/juice-shop.git --depth 1 
-### 3 Go into the cloned folder with cd juice-shop
-### 4 Run npm install (only has to be done before first start or when you change the source code)
-### 5 Run npm start
-### 6 Browse to http://localhost:3000
+Before starting, make sure you have Node.js installed on your system.
 
-### If you have any problems, you can safely use your colleages' API (instead of localhost, use his/her IP)
+Install Node.js (Version $\ge$ 20.x or latest LTS/Current):
+
+Download the installer from Node.js Official Download.
+
+⚠️ Important: Ensure you check the option to Add Node.js to PATH during installation!
+
+Verify Installation:
+Open your terminal (Terminal / Command Prompt / PowerShell) and verify:
+
+node -v
+npm -v
+
+
+🚀 Step-by-Step Installation
+
+1. Clone the Repository
+
+Clone the shallow copy of the repository for faster download:
+
+git clone https://github.com/juice-shop/juice-shop.git --depth 1
+
+
+2. Navigate to the Project Directory
+
+cd juice-shop
+
+
+3. Install Dependencies
+
+Install all required package dependencies (this only needs to be run before the first start or after updating source code):
+
+npm install
+
+
+4. Start the Application
+
+Launch the local server:
+
+npm start
+
+
+5. Access the Application
+
+Open your web browser and navigate to:
+
+http://localhost:3000
+
+
+🤝 Live Workshop & Troubleshooting
+
+Live Walkthrough: Feel free to follow along with the exercises on-screen during the workshop presentation.
+
+Alternative API / Connection Issues: If you encounter local runtime issues or installation problems, you can safely connect to a peer's running instance. Replace localhost with your colleague's IP address:
+
+http://<COLLEAGUE_IP>:3000
+
+
+🛠️ Quick Command Reference
+
+Action
+
+Command
+
+Clone Repo
+
+git clone https://github.com/juice-shop/juice-shop.git --depth 1
+
+Enter Folder
+
+cd juice-shop
+
+Install Packages
+
+npm install
+
+Run Server
+
+npm start
