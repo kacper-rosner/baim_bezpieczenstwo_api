@@ -1,8 +1,67 @@
-## Baim - bezpieczenstwo API:
+# Baim - bezpieczenstwo API:
 
 Zadania -> Idź do pliku zadania.md
+Polecenia -> http://localhost:3000/#/score-board
 
 Jesli chcesz, skorzystaj z naszego walkthrough na ekranie
+## Opis projektu 
+
+Projekt dotyczy bezpieczeństwa API, skupiając się na zagrożeniach, zabezpieczeniach oraz testowaniu w oparciu o wytyczne Trend Micro i OWASP.
+
+* Prezentacja wyjaśnia działanie API, gdzie aplikacja wysyła żądanie do określonego endpointu, a serwer zwraca odpowiednie dane.
+
+
+* Wyróżniono trzy kluczowe obszary ochrony: poufność, integralność oraz dostępność danych.
+
+
+* Omówiono procesy uwierzytelniania, czyli weryfikacji tożsamości, oraz autoryzacji kontrolującej uprawnienia do zasobów.
+
+
+* Mapa ryzyk OWASP dzieli zagrożenia na kategorie związane z tożsamością, zasobami, integracjami oraz konfiguracją systemu.
+
+
+* Szczególnym zagrożeniem jest BOLA, czyli podatność polegająca na braku odpowiedniej kontroli autoryzacji dla konkretnych obiektów.
+
+
+* Projekt kładzie nacisk na prawidłową ochronę tokenów JWT, stosowanie zasady minimalnych uprawnień oraz unikanie trzymania sekretów w URL.
+
+
+* Zmiana pól oraz funkcji administracyjnych wymaga ścisłej weryfikacji uprawnień bezpośrednio po stronie serwera.
+
+
+* Usługi są chronione przed przeciążeniem za pomocą limitów częstotliwości żądań zwracających błąd 429.
+
+
+* Kontrola danych z zewnątrz obejmuje zapobieganie iniekcjom oraz atakom typu SSRF na zewnętrze API.
+
+
+* Istotne jest także usuwanie zapomnianych wersji API oraz prowadzenie aktualnego spisu wszystkich endpointów.
+
+
+* Warstwy ochrony obejmują szyfrowanie TLS, bramy API, WAF, reguły biznesowe aplikacji oraz stały monitoring.
+
+
+* Testy bezpieczeństwa sprawdzają scenariusze odmowy dostępu w przypadku braku tokenu lub niewłaściwych uprawnień.
+
+
+* System monitoringu rejestruje zdarzenia i wykrywa sygnały ostrzegawcze, takie jak wielokrotne próby niedozwolonego odczytu.
+
+
+* Praktyka autoryzacji opiera się na odrzucaniu nieautoryzowanych żądań bez ujawniania poufnych informacji o zasobach.
+
+
+* Pierwsze kroki dla zespołu obejmują stworzenie spisu API, audyt uprawnień, konfigurację limitów oraz wycofanie starych wersji.
+
+
+* Bezpieczeństwo wymaga ciągłej weryfikacji tożsamości, kontroli uprawnień oraz wykrywania nadużyć.
+
+
+* Dokumentacja opiera się na zestawieniu OWASP API Security Top 10 z 2023 roku.
+
+
+* Źródłami projektu są materiały edukacyjne oraz dobre praktyki udostępnione przez Trend Micro i OWASP.
+
+* 
 ##### If you want, you can go through exercises with the help from us - we're doing a walkthrough for some problems on the screen 
 
 Dla osób robiących samemu: instrukcja poniżej:
