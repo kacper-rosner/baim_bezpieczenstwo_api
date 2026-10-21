@@ -95,7 +95,7 @@ Run Server
 npm start
 
 
-Zadania: 
+# Zadania: 
 
 http://127.0.0.1:3000/#/score-board
 
