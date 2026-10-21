@@ -1,4 +1,6 @@
-## Zadania: 
+## Baim - bezpieczenstwo API:
+
+Zadania -> Idź do pliku zadania.md
 
 Jesli chcesz, skorzystaj z naszego walkthrough na ekranie
 ##### If you want, you can go through exercises with the help from us - we're doing a walkthrough for some problems on the screen 
